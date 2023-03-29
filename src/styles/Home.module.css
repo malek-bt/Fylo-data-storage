@@ -132,7 +132,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    position: relative; border: solid wheat;
+    position: relative; 
   }
   .details {
     height: 9rem;

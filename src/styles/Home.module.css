@@ -1,6 +1,5 @@
 .main {
   height: 100vh;
-  /* position: relative; */
   display: grid;
   place-items: center;
   margin: 0 auto;
@@ -17,9 +16,6 @@
   margin: 1.75rem auto;
   padding: 2rem;
   background-color: hsl(228, 56%, 26%);
-  /* position: absolute;
-  top: 20%;
-  left: 10%; */
 }
 
 .icons {
@@ -49,9 +45,7 @@
   margin: 0 auto;
   height: 10rem;
   text-align: center;
-  /*  position: absolute;
-  top: 50%;
-  left: 10%; */
+ 
 }
 .text {
   padding-top: 2rem;
@@ -147,7 +141,9 @@
     bottom: 95%;
     left: 68%;
     border-bottom-right-radius: 0;
+   
   }
+  
   .centred_div::after {
     content: "";
     position: inherit;
